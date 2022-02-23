@@ -1,0 +1,191 @@
+<!--
+1- O que é a computação? 
+
+A computação pode ser definida como a busca de solução para um problema a partir de entradas (inputs), de forma a obter resultados (outputs) depois de processada a informação através de um algoritmo.[1] 
+
+
+2- Quando ela foi criada?
+
+Quando a humanidade criou o conceito de matemática.
+
+3- Pais da computação -
+Alan Turing (criador da teoria usada até hj)
+
+Konrad Zuse (criador do primeiro computador eletrico)
+
+John Von Neumann (criador da arquitetura de neumann, usada até hj)
+
+4- Hardware e software- 
+
+O software é todo programa rodado em um computador ou dispositivo que permita ao mesmo executar suas funções.
+Software é um conjunto de instruções que devem ser seguidas e executadas por um mecanismo, seja ele um computador ou um aparato eletromecânico. É o termo genérico usado para descrever programas, apps, scripts, macros e instruções de código embarcado diretamente (firmware), de modo a ditar o que uma máquina deve fazer.
+
+hardware é tudp que é fisico.
+
+5- Linguagem de Maquina - 
+Nível mais primitivo de interpretação para a máquina
+Possível apenas pelos conjuntos de instruções dos processadores
+Não legível por humanos
+Altíssima velocidade de processamento
+Literalmente 0’s e 1’s (pulsos elétricos)
+
+6- Assembly - 
+
+Nível mais primitivo de interpretação para humanos
+Altíssima complexidade de entendimento
+Alguma legibilidade por humanos
+Alta velocidade de processamento
+Tradução mais próxima entre a linguagem humana e a linguagem de máquina.
+
+
+7- Linguagem Alto Nivel - 
+
+Nível mais concreto de interpretação humana
+Média a baixa complexidade de entendimento por humanos
+Totalmente legível por humanos
+Velocidade de processamento variada
+Maior nível de abstração a partir da máquina
+
+8- Tipos de Softwar - 
+
+Software de programação (linguagens)
+Software de sistema (gerenciamento das maquinas, criados a partir da programação)
+Software de aplicação (aplicativos em si, navegador, zoom e etc...)
+
+
+9- Software livre x aberto x proprietário -
+
+Software livre: código aberto, gratuito, modificação permitida sempre; (exemplo: linux)
+Software aberto: código aberto, gratuito ou não, modificação permitida mediante citação; (exemplo: firefox)
+Software proprietário: código fechado, gratuito ou não, sem modificações permitidas.
+
+10- Command Line Interface: -
+
+É a parte "complicada" de um sistema operacional. Seja qual for ele, a CLI está presente e seu uso é destinado aos experts que necessitem fazer ações não disponíveis via GUI. Não sendo nada intuitiva, necessita de alto conhecimento de comandos. O terminal Linux e o CMD do Windows são exemplos de emuladores de CLI.
+
+11- Graphical User Interface:
+
+É composta por todos os recursos gráficos utilizados pelo usuário para que o mesmo consiga exercer suas tarefas facilmente, sem a necessidade de conhecimento profundo de comandos. O cursor e os ícones são alguns dos elementos da GUI.
+
+-------------------------------------------------------------
+
+                        COMANDOS DE TERMINAL
+
+1- Console/Terminal/CLI
+
+Recapitulando, é a parte "complicada" de um sistema operacional. Seja qual for ele, a CLI está presente e seu uso é destinado aos experts que necessitem fazer ações não disponíveis via GUI. Não sendo nada intuitiva, necessita de alto conhecimento de comandos. O terminal Linux e o CMD do Windows são exemplos de emuladores de CLI. 
+
+2- CMD
+
+Interpretador de linha de comando criado em 1981, usado desde o Windows NT até hoje;
+Baseado no sistema operacional DOS, também da Microsoft;
+Vantagens arquiteturais modernas;
+Executa scripts apenas com comandos batch.
+
+3- Powershell
+ 
+Interpretador de linha de comando criado em 2006, para substituir o CMD;
+Baseado na linguagem .NET, também da Microsoft;
+Vantagens de integrações com sistemas modernos.
+Multiplataforma
+Permite modo gráfico
+
+
+4- Terminal (Unix-like OS)
+
+Interpretador de linha de comando criado em 1991 por Linus Torvalds (criador do Linux);
+Baseado na linguagem C;
+Versatilidade extrema;
+Multiplataforma
+Permite modo texto ou framebuffer
+
+
+5- Vantagens x Desvantagens
+
+Vantagens:
+
+Controle total do sistema;
+Otimização de recursos do sistema;
+Altíssima precisão;
+Necessita apenas de um tipo de input (teclado).
+
+Desvantagens:
+
+Difícil de dominar;
+Difícil customização;
+Informação apenas em modo texto;
+Não há correção de palavras automático pelo sistema.
+
+
+6- Definição e Fundamentos
+
+É crucial ao profissional da TI que aprenda a utilizar interfaces CLI, em especial caso tenha em foco se tornar um programador ou um especialista na área de redes ou infraestrutura.
+Geralmente é um requisito para o mercado de trabalho
+Recomendado praticar com um sistema Unix-like (Linux ou macOS), mas possível de se utilizar no Windows também.
+
+8- Comandos básicos
+
+Toda CLI possui seus comandos básicos para a navegação dentro do sistema.
+Ao lado, alguns dos principais comandos a serem usados no Linux
+
+-pwd
+-cd
+-ls
+-mkdir
+-cp
+-mv
+-rm
+-rmdir
+-cat
+-more
+-less
+-touch
+-head
+-tail
+-echo
+-top
+-man
+-echo
+
+9- Comandos de busca
+
+Para a busca, existem comandos específicos que facilitam bastante a vida do operador do sistema.
+
+-grep
+-find
+-history
+-locate
+-head
+-tail
+-diff
+
+10- Permissão de execução
+
+No Linux, arquivos podem ter (ou não) três tipos de permissões básicas;
+Leitura (r), escrita (w) e execução (x)
+Geralmente identificável após a execução do comando “ls -l”, onde mostram os 9 campos que determinam o tipo de arquivo ou pasta.
+
+11-Permissões de execução
+
+chmod: Comando para definir os tipos de execução que um arquivo ou diretório podem ter.
+chown: Comando para definir a qual usuário o arquivo ou diretório pertence.
+
+12- Variáveis Básicas do ambiente
+ 
+É possível armazenar um valor com um nome diferente;
+Esse tipo de atribuição se chama variável;
+Variáveis podem ser tanto de ambiente quanto de shell.
+
+Caso necessite armazenar o resultado de um comando em uma variável, também é possível.
+Isto pode ser útil caso necessite de utilizar o mesmo valor em mais de um lugar
+Sintaxes possíveis para o uso:
+variavel=$(comando)
+variavel=`comando`
+
+13- Scripts
+
+São sequências de comandos que podem ser executados em ordem a partir da leitura de um arquivo;
+No Linux, um script comumente termina com a extensão “.sh”;
+Muito útil para automação de rotinas.
+
+-->
